@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testthingjava
+  description: somethingcool
+  annotations:
+    github.com/project-slug: blamdemo/springboot
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guest
